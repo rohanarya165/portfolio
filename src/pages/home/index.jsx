@@ -29,8 +29,6 @@ export const Home = () => {
     return () => clearInterval(interval);
   }, []);
 
-  console.log("bg", bgImage);
-
   return (
     <HelmetProvider>
       <section id="home" className="home">
