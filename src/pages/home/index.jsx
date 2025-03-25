@@ -85,6 +85,15 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  <a href="https://drive.google.com/uc?export=download&id=1vcNYraxsiiJrWJNEQSPytcjhlhTBKYTe" download>
+  <div id="button_h" className="ac_btn btn">
+    CV
+    <div className="ring one"></div>
+    <div className="ring two"></div>
+    <div className="ring three"></div>
+  </div>
+</a>
+
                 </div>
               </div>
             </div>
