@@ -14,11 +14,11 @@ export const Home = () => {
     };
 
     window.addEventListener("storage", handleStorageChange);
-    
+
     return () => {
       window.removeEventListener("storage", handleStorageChange);
     };
-  },[]);
+  }, []);
 
   React.useEffect(() => {
     const interval = setInterval(() => {
@@ -41,8 +41,8 @@ export const Home = () => {
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
             style={{
-              backgroundImage: bgImage === "light" 
-                ? `url(https://www.w3webschool.com/wp-content/uploads/2022/10/developer.gif)` 
+              backgroundImage: bgImage === "light"
+                ? `url(https://www.w3webschool.com/wp-content/uploads/2022/10/developer.gif)`
                 : `url(https://i.pinimg.com/originals/ed/ec/57/edec57b70e496d6310c0ba533909acb2.gif)`,
               backgroundSize: "cover", // Ensures image covers the div
               backgroundPosition: "center", // Centers the image
@@ -86,13 +86,13 @@ export const Home = () => {
                     </div>
                   </Link>
                   <a href="https://drive.google.com/uc?export=download&id=1vcNYraxsiiJrWJNEQSPytcjhlhTBKYTe" download>
-  <div id="button_h" className="ac_btn btn">
-    CV
-    <div className="ring one"></div>
-    <div className="ring two"></div>
-    <div className="ring three"></div>
-  </div>
-</a>
+                    <div id="button_h" className="ac_btn btn">
+                      CV
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
 
                 </div>
               </div>
